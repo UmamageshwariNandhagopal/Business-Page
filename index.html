@@ -601,7 +601,7 @@ Driptec emphasize being a leading head of large purchasers, with contemporary ma
 
             
 
-            <form action="#" class="p-5 bg-white">
+            <form action="" method="POST" id="submissionform" class="p-5 bg-white">
               
               <h2 class="h4 text-black mb-5">Contact Form</h2> 
 
@@ -623,6 +623,13 @@ Driptec emphasize being a leading head of large purchasers, with contemporary ma
                   <input type="email" id="email" class="form-control rounded-0">
                 </div>
               </div>
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="contact">Contact</label> 
+                  <input type="contact" id="contact" class="form-control rounded-0">
+                </div>
+              </div>
 
               <div class="row form-group">
                 
@@ -641,7 +648,7 @@ Driptec emphasize being a leading head of large purchasers, with contemporary ma
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary mr-2 mb-2">
+                  <input type="submit" sendMessage() value="Send Message" class="btn btn-primary mr-2 mb-2">
                 </div>
               </div>
 
@@ -671,6 +678,8 @@ Driptec emphasize being a leading head of large purchasers, with contemporary ma
     </div>
   </div> <!-- .site-wrap -->
 
+  <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+  <script src="js/app.js"></script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
